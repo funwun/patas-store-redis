@@ -44,6 +44,8 @@ Get detail from [patas](https://github.com/funwun/patas).
 * `idleTimeoutMillis` Close idle clients after n second.
 * `db` Database number of redis to use.
 
+For more options, please refrence to the [node_redis](https://github.com/NodeRedis/node_redis#options-object-properties) options.
+
 ## License
 
 The MIT License (MIT) Copyright (c) 2016 Lewis Deng &lt;kekuer@gmail.com&gt;
