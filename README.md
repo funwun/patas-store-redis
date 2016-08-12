@@ -23,7 +23,7 @@ var store = redisStore({
     minClients: 2, // defalut
     maxClients: 30, // defalut
     idleTimeoutMillis: 60000 * 60 * 24,
-    database: 0 // database number to use
+    db: 0 // database number to use
 });
 
 // create patas with source and stores
@@ -42,7 +42,7 @@ Get detail from [patas](https://github.com/funwun/patas).
 * `minClients` Minimum size of redis pool.
 * `maxClients` Maximum size of redis pool.
 * `idleTimeoutMillis` Close idle clients after n second.
-* `database` Database number of redis to use.
+* `db` Database number of redis to use.
 
 ## License
 
