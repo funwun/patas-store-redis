@@ -1,6 +1,6 @@
 # Patas cache store for Redis
 
-The Redis cache store engine for the [patas](
+The Redis cache store engine for the [Patas](
     https://github.com/funwun/patas) module.
 
 ## Installation
